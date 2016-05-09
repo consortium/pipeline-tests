@@ -1,0 +1,69 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBasic
+FamilyName:Gentium Basic
+StyleName:Regular
+MenuName:Gentium Basic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Gentium Basic
+WritingScript:Roman
+OutlineFileName:\GenBasR.ttf
+DataFormat:sfntData
+FileLength:269048
+FileModTime:1207148468
+NameArray:0,Mac,18,Gentium Basic
+NameArray:0,Mac,4,Gentium Basic
+NameArray:0,Win,1,Gentium Basic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBasic-Bold
+FamilyName:Gentium Basic
+StyleName:Bold
+MenuName:Gentium Basic
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Gentium Basic Bold
+WritingScript:Roman
+OutlineFileName:\GenBasB.ttf
+DataFormat:sfntData
+FileLength:271648
+FileModTime:1207148468
+NameArray:0,Mac,18,Gentium Basic Bold
+NameArray:0,Mac,4,Gentium Basic Bold
+NameArray:0,Win,1,Gentium Basic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GentiumBasic-Italic
+FamilyName:Gentium Basic
+StyleName:Italic
+MenuName:Gentium Basic
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Gentium Basic Italic
+WritingScript:Roman
+OutlineFileName:\GenBasI.ttf
+DataFormat:sfntData
+FileLength:263504
+FileModTime:1207148468
+NameArray:0,Mac,18,Gentium Basic Italic
+NameArray:0,Mac,4,Gentium Basic Italic
+NameArray:0,Win,1,Gentium Basic
+%EndFont
+
