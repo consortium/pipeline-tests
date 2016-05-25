@@ -2,9 +2,9 @@
 
 # convert various docx files to one html file using pandoc
 
-[ -f test.html ] && rm test.html
+[ -f reproducing-autonomy.html ] && rm reproducing-autonomy.html
 
-touch test.html
+touch reproducing-autonomy.html
 
 # write html header
 echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -15,18 +15,23 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
+  <link href="Styles/internal-1.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-' >> test.html
+' >> reproducing-autonomy.html
 
 # write html fragment for each *.docx
-for f in 0*
+for f in text/0*
 do
   echo "Processing $f file.."
-  pandoc $f >> test.html
+  pandoc $f >> reproducing-autonomy.html
 done
 
 # write footer
 echo '</body>
 </html>
-' >> test.html
+' >> reproducing-autonomy.html
+
+# This makes the package needed for epub2html
+# add folders: Fonts Styles
+zip -r reproducing-autonomy.zip reproducing-autonomy.html Fonts Styles -x "*/\.DS_Store" "/\.*"

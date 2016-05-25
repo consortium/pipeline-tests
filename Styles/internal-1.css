@@ -1,0 +1,245 @@
+@charset "UTF-8"; 
+/* Original location: internal */
+
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../Fonts/GentiumBasic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: normal;
+		src : url(../Fonts/GentiumBasic-Bold.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: italic;
+		src : url(../Fonts/GentiumBasic-Italic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: italic;
+		src : url(../Fonts/GentiumBasic-BoldItalic.otf);
+}
+@font-face {
+		font-family : "Gentium Book Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../Fonts/GentiumBookBasic.otf);
+}
+
+@page {
+	padding: 0;
+	margin: 16px 0;
+}
+
+body {
+	font-size: 100%;
+	margin: 0 16px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	font-family : "Gentium Basic";
+	font-weight: normal;
+	font-size: 3em;
+	text-align: center;
+	text-transform: uppercase;
+	adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+h2 {
+	font-family : "Gentium Basic";
+	font-weight: normal;
+	font-size: 1.5em;
+	text-align: center;
+	page-break-before: always;
+	text-transform: uppercase;
+	adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: left;
+	font-family: "Gentium Basic";
+	adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: left;
+	font-family: "Gentium Basic";
+	adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1em;
+	text-indent: 1.5em;
+	text-align: justify;
+	font-family: "Gentium Basic";
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+i {
+	font-family : "Gentium Basic";
+	font-weight : normal;
+	font-style: italic;
+		adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+.page-break-before {
+	page-break-before: always;
+}
+
+.page-break-after {
+	page-break-after: always;
+}
+
+.space-top {
+	margin-top: 1.2em;
+}
+
+.Chapter_Authors {
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-family: "Gentium Basic";
+	text-transform: uppercase;
+	text-indent: 0;
+}
+
+.chapter_medium {
+	font-size: 0.9em;
+	font-family: "Gentium Basic";
+	text-align: center;
+	text-transform: uppercase;
+	text-indent: 0;
+	margin-top: -1em;
+}
+
+.Body_Copy_1st_line {
+	font-weight: normal;
+	font-size: 1em;
+	text-indent: 0;
+	text-align: justify;
+	font-family: "Gentium Basic";
+}
+
+.no_indent {
+	text-indent: 0px;
+}
+.left_aligned {
+	text-align: left;
+}
+
+/* IMAGES */
+.centered img {
+	height: auto;
+	max-width: 100%;
+}
+
+.centered {
+	width: 100%;
+	margin: 1em 0;
+	page-break-before: auto;
+	page-break-inside: avoid;
+	text-align: center;
+	text-indent: 0;
+}
+
+.Image_Captions {
+	font-weight: normal;
+	font-size: 0.8em;
+	text-align: center;
+	font-family: "Gentium Basic";
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
+/* QUOTES */
+
+.Inline_Quotes {
+	font-weight: normal;
+	font-size: 0.9em;
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	font-family: "Gentium Basic";
+	text-indent: 0;
+}
+.Inline_Quotes_Captions {
+	margin-top: 0;
+	font-family: "Gentium Basic";
+	text-indent: 0;
+}
+.Inline_Quotes_Captions i {
+	font-size: 1em;
+	font-style: italic;
+	adobe-hyphenate: none;
+	-webkit-hyphens: none;
+	-epub-hyphens: none;
+	hyphens: none;
+}
+
+.Authors {
+	text-transform: uppercase;
+}
+
+/* FOOTNOTES */
+
+.Footnotes_title {
+	border-top: 1px solid black;
+	padding-top: 1.5em;
+	page-break-inside: avoid;
+}
+
+.Footnote_list {
+	font-weight: normal;
+	font-size: 0.9em;
+	margin-left: 1.5em;
+	margin-top: 0em;
+	font-family: "Gentium Basic";
+	text-indent: 0;
+	text-align: left;
+}
+.Footnote_list a {
+	margin-right: 0.5em;
+}
+
+.Footnote_Characters {
+	font-size: 0.8em;
+	vertical-align: 0.2em;
+	font-weight: bold;
+	margin-left: 0.2em;
+}
