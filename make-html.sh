@@ -1,6 +1,7 @@
 #!/bin/bash
 
 pandoc --template template.html -f docx -t html text/reproducing-autonomy.docx > reproducing-autonomy.html
+python touchups.py
 
 # This makes the package needed for epub2html
 # add folders: Fonts Styles
