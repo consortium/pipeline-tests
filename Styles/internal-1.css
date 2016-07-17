@@ -98,11 +98,12 @@ h4 {
 p {
 	font-weight: normal;
 	font-size: 1em;
+	line-height: 1em;
 	text-indent: 1.5em;
-	text-align: justify;
+	text-align: left;
 	font-family: "Gentium Basic";
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 
 i {

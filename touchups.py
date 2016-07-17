@@ -7,12 +7,20 @@ t = open("reproducing-autonomy.html", "r", "utf-8").read()
 
 t = t.replace('<p>by Kerstin Stakemeier &amp; Marina Vishmidt</p>','<p class="Chapter_Authors" property="http://purl.org/dc/terms/creator">by Kerstin Stakemeier &amp; Marina Vishmidt</p>')
 
-t = t.replace('<p><img src="media/image1.png" width="121" height="121" /></p>', '<p class="centered"><img src="Images/M.svg" width="60" height="60" /></p>')
-t = t.replace('<p><img src="media/image2.png" width="78" height="24" /></p>', '<p class="centered"><img src="Images/Mute-logo2.png" width="78" height="24" /></p>')
+t = t.replace('<p><img src="media/image9.png" width="121" height="121" /></p>', '<p class="centered"><img src="Images/M.svg" width="60" height="60" /></p>')
+t = t.replace('<p><img src="media/image10.png" width="78" height="24" /></p>', '<p class="centered"><img src="Images/Mute-logo2.png" width="78" height="24" /></p>')
 
 t = t.replace('<p>Mute Books, LondonMUTE LOGO</p>','<div class="white">&nbsp;</div>\n<p><img width="123" height="39" src="Images/Mute-logo2.png"/></p>')
 
-t = t.replace('<div class="footnotes">', '<h1>Footnotes</h1>\n<div class="footnotes">')
+t = t.replace('<div class="footnotes">', '<h1 id="footnotes">Footnotes</h1>')
+t = t.replace('''</ol>
+</div>
+</body>
+</html>
+''','''</ol>
+</body>
+</html>
+''')
 
 t = t.replace("""<ol style="list-style-type: decimal">
 <li><p>The exclusive concentration of artistic talent in individuals and the suppression of it in the greater masses is the result of the division of labour.</p></li>
