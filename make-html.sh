@@ -1,11 +1,11 @@
 #!/bin/bash
 
-pandoc --template template.html -f docx -t html text/reproducing-autonomy.docx > reproducing-autonomy.html
+pandoc --template template.html -f docx -t html text/reproducing-autonomy.docx > reproducing-autonomy.xhtml
 python touchups.py
 
 # This makes the package needed for epub2html
 # add folders: Fonts Styles
-zip -r reproducing-autonomy.zip reproducing-autonomy.html Fonts Styles Images -x "*/\.DS_Store" "/\.*"
+zip -r reproducing-autonomy.zip reproducing-autonomy.xhtml Fonts Styles Images -x "*/\.DS_Store" "/\.*"
 
 CURRENT_FOLDER=`pwd`
 

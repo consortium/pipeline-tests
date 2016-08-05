@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from codecs import open
 
-t = open("reproducing-autonomy.html", "r", "utf-8").read()
+t = open("reproducing-autonomy.xhtml", "r", "utf-8").read()
 
 t = t.replace('<p>by Kerstin Stakemeier &amp; Marina Vishmidt</p>','<p class="Chapter_Authors" property="http://purl.org/dc/terms/creator">by Kerstin Stakemeier &amp; Marina Vishmidt</p>')
 
@@ -123,7 +123,9 @@ t = t.replace("""<ol style="list-style-type: decimal">
 <li><p>The usual effort to locate and identify the self, at once shifts into considerations about its deployment […] The outcome is open, if one understands this deployment of oneself not only as competing for attention but as a critical gesture or revelation.</p>
 <p>– Karolin Meunier, <em>Return to Inquiry</em> (2012)</p></li>
 <li><p>The phenomena of self-positioning, self-affection, self-referentiality as opening towards processuality, creation of possibilities, and initiation of becoming and mutation are originary. But these autopoietic spaces only gain materiality by transversalizing, repositioning and reconfiguring all realms considered as ‘structural’ (economic, political, social, linguistic, sexual, scientific, etc.)</p>
-<p>– Maurizio Lazzarato, lecture given at Psychopathologies of Cognitive Capitalism, Berlin (2013)</p></li>""")
+<p>– Maurizio Lazzarato, lecture given at Psychopathologies of Cognitive Capitalism, Berlin (2013)</p></li>
+</ol>
+""")
 
-o = open("reproducing-autonomy.html", "w", "utf-8")
+o = open("reproducing-autonomy.xhtml", "w", "utf-8")
 o.write(t)
