@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 /* Original location: internal */
 
 @font-face {
@@ -35,6 +35,28 @@
 @page {
 	padding: 0;
 	margin: 16px 0;
+	@top-right {
+		color: gray;
+		font-variant: small-caps;
+	}
+}
+
+@page :right {
+	@bottom-right { content: counter(page); }
+	@top-right { content: "Reproducing Autonomy"; }
+}
+@page :left {
+	@bottom-left { content: counter(page); }
+}
+@page :first {
+	@bottom-left { content: normal; }
+	@bottom-right { content: normal; }
+	@top-center { content: normal; }
+}
+@page :blank {
+	@bottom-left { content: normal; }
+	@bottom-right { content: normal; }
+	@top-center { content: normal; }
 }
 
 body {
@@ -122,8 +144,8 @@ sup, sub {
 	top: -0.4em;
 }
 
-sub { 
-	top: 0.4em; 
+sub {
+	top: 0.4em;
 }
 
 .page-break-before {
