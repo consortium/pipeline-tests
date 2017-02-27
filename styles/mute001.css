@@ -99,7 +99,7 @@ nav li a::after {
 }
 
 .copyright {
-	break-before: right;
+	break-before: left;
 	break-after: page;
 }
 .copyright .legal {
@@ -121,6 +121,10 @@ h1, h2, h3, h4 {
 .author {
 	hyphens: none;
 }
+.author-chapter {
+  break-after: left;
+	hyphens: none;
+}
 h1, h2 {
 	margin: 2em 0;
 }
@@ -129,13 +133,13 @@ h3, h4 {
 }
 
 h2  {
-	break-before: right;
+	 break-before: right;
 }
 h3 {
-	break-before: page;
+	/* break-before: page; */
 }
 h2 + section h3 {
-	break-before: auto;
+/*	break-before: auto; */
 }
 
 /** Body text **/
@@ -158,6 +162,11 @@ p:first-of-type::first-letter {
 	line-height: 1;
 	padding-right: 1px
 }
+
+.last-para {
+page-break-after:always;
+}
+
 main > section:last-child::after {
 	break-before: avoid;
 	break-inside: avoid;
