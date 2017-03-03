@@ -164,7 +164,7 @@ p:first-of-type::first-letter {
 }
 
 .last-para {
-page-break-after:always;
+break-after: always;
 }
 
 main > section:last-child::after {
