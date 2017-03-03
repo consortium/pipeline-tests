@@ -1,6 +1,38 @@
 /** Fonts **/
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500);
+
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../fonts/GentiumBasic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: normal;
+		src : url(../fonts/GentiumBasic-Bold.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: italic;
+		src : url(../fonts/GentiumBasic-Italic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: italic;
+		src : url(../fonts/GentiumBasic-BoldItalic.otf);
+}
+@font-face {
+		font-family : "Gentium Book Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../fonts/GentiumBookBasic.otf);
+}
+
 /** Structure **/
+
 html {
 	max-width: 90ch;
 	margin: auto;
@@ -15,19 +47,22 @@ body {
 	}
 }
 @page {
-	font-size: small;
-	font-family: Georgia, serif;
-	margin: 4rem 10%;
-	@top-center {
-		color: gray;
-		font-variant: small-caps;
-	}
+	font-size: 9pt;
+	font-family: Gentium Basic, Georgia, serif;
+	size: 152mm 229mm;
+	margin-top: 25mm;
+	margin-bottom: 22mm;
+	/** margin: 4rem 10%; **/
 }
 @page :right {
 	@bottom-right { content: counter(page); }
+	margin-left: 18mm;
+  margin-right: 15mm;
 }
 @page :left {
 	@bottom-left { content: counter(page); }
+	margin-left: 15mm;
+	margin-right: 18mm;
 }
 @page :first {
 	@bottom-left { content: normal; }
@@ -145,7 +180,6 @@ h2 + section h3 {
 /** Body text **/
 
 p {
-	text-indent: 1.5em;
 	margin-top: 0em; margin-bottom: 0em;
 	hyphens: auto;
 	line-height: 1.45;
@@ -153,16 +187,26 @@ p {
 	widows: 2;
 }
 
+p + p {
+  text-indent: 1.5em;
+  margin-top: 0 }
+
 p:first-of-type {
 	text-indent: 0;
 }
+
+p.stb { text-indent: 0; margin-top: 0.83em }
+p.mtb { text-indent: 0; margin-top: 2.17em }
+p.ltb { text-indent: 0; margin-top: 3.08em }
+
+/** Body text
 p:first-of-type::first-letter {
 	font-weight: bold;
 	font-size: 1.8em;
 	line-height: 1;
 	padding-right: 1px
 }
-
+ **/
 .last-para {
 break-after: always;
 }

@@ -1,5 +1,36 @@
 /** Fonts **/
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500);
+
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../fonts/GentiumBasic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: normal;
+		src : url(../fonts/GentiumBasic-Bold.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : normal;
+		font-style: italic;
+		src : url(../fonts/GentiumBasic-Italic.otf);
+}
+@font-face {
+		font-family : "Gentium Basic";
+		font-weight : bold;
+		font-style: italic;
+		src : url(../fonts/GentiumBasic-BoldItalic.otf);
+}
+@font-face {
+		font-family : "Gentium Book Basic";
+		font-weight : normal;
+		font-style: normal;
+		src : url(../fonts/GentiumBookBasic.otf);
+}
+
 /** Structure **/
 html {
 	max-width: 90ch;
@@ -99,7 +130,7 @@ nav li a::after {
 }
 
 .copyright {
-	break-before: right;
+	break-before: left;
 	break-after: page;
 }
 .copyright .legal {
@@ -121,6 +152,10 @@ h1, h2, h3, h4 {
 .author {
 	hyphens: none;
 }
+.author-chapter {
+  break-after: left;
+	hyphens: none;
+}
 h1, h2 {
 	margin: 2em 0;
 }
@@ -129,13 +164,13 @@ h3, h4 {
 }
 
 h2  {
-	break-before: right;
+	 break-before: right;
 }
 h3 {
-	break-before: page;
+	/* break-before: page; */
 }
 h2 + section h3 {
-	break-before: auto;
+/*	break-before: auto; */
 }
 
 /** Body text **/
@@ -158,6 +193,11 @@ p:first-of-type::first-letter {
 	line-height: 1;
 	padding-right: 1px
 }
+
+.last-para {
+break-after: always;
+}
+
 main > section:last-child::after {
 	break-before: avoid;
 	break-inside: avoid;
