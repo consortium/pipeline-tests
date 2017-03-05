@@ -4,98 +4,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml" property="http://scholarly-html.org/schtml">
 
 <head>
-  <!-- adding further metadata -->
+  <title>Reproducing Autonomy</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
-  <title>Reproducing Autonomy</title>
-  <style>
-  @font-face {
-  		font-family : "Gentium Basic";
-  		font-weight : normal;
-  		font-style: normal;
-  		src : url(fonts/GentiumBasic.otf);
-  }
-  @font-face {
-  		font-family : "Gentium Basic";
-  		font-weight : bold;
-  		font-style: normal;
-  		src : url(fonts/GentiumBasic-Bold.otf);
-  }
-  @font-face {
-  		font-family : "Gentium Basic";
-  		font-weight : normal;
-  		font-style: italic;
-  		src : url(fonts/GentiumBasic-Italic.otf);
-  }
-  @font-face {
-  		font-family : "Gentium Basic";
-  		font-weight : bold;
-  		font-style: italic;
-  		src : url(fonts/GentiumBasic-BoldItalic.otf);
-  }
-  @font-face {
-  		font-family : "Gentium Book Basic";
-  		font-weight : normal;
-  		font-style: normal;
-  		src : url(fonts/GentiumBookBasic.otf);
-  }
-  :root {
-  	font-family: "Gentium Basic", Georgia, serif;
-  	font-feature-settings: "onum", "swsh";
-  }
-  @page {
-  	font-family: Gentium Basic, Georgia, serif;
-  }
-  @page :right {
-      <!-- @top-right { content: "Reproducing Autonomy"; } -->
-  }
-  @page :left {
-    <!-- @top-left { content: "Chapter name"; } -->
-  }
-  .chap-num, h1, h2 {
-  	font-feature-settings: "smcp";
-  	font-variant: small-caps;
-  }
-  header {
-  	font-size: 1.3em;
-  }
-  h2 {
-  	font-weight: normal;
-  }
-  .chap-num::after {
-  	content: "\a";
-  	white-space: pre-wrap;
-  }
-  .stars {
-  	margin-left: 0;
-  	text-align: center;
-  	break-inside: avoid;
-  }
-  </style>
-  <link href="styles/mute001.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" media="screen" href="styles/gentium-basic.css" type="text/css" />
+  <link rel="stylesheet" href="styles/book.css" />
+  <link rel="stylesheet" href="styles/layout.css" />
 </head>
 
 <body>
 
+<!-- chicago manual of style: parts of a book: front matter -->
+
 <!-- chicago manual of style: parts of a book: title page -->
 
 <section data-type="titlepage">
-<h1 property="http://purl.org/dc/terms/title" class="_notoc">Reproducing Autonomy</h1>
+<h1 id="ReproducingAutonomy">Reproducing Autonomy</h1>
 <div class="booktitle">Reproducing Autonomy</div>
-<div class="subtitle">Work, Money, Crisis and Contemporary Art</div>
-<p class="author" property="http://purl.org/dc/terms/creator">by Kerstin Stakemeier &amp; Marina Vishmidt</p>
-
+<div class="titlepageSub">Work, Money, Crisis and Contemporary Art</div>
+<p class="author">by Kerstin Stakemeier &amp; Marina Vishmidt</p>
+<div class="logo">
 <img src="images/M.svg" width="60" height="60" alt="Mute logo monogram - M" />
 <img src="images/Mute-logo2.png" width="78" height="24" alt="Mute logo - Mute" />
  <p>Publication version 1.1, GitHub commit SHA-1 ID 2644d6e, 2644d6e4aa3c4199a587071259d790543dd2e65</p>
-
+   </div>
 </section>
 
 <!-- chicago manual of style: parts of a book: copyright page -->
 
-<section class="copyright">
+<section>
 <p>Anti copyright © Mute Publishing 2016<br />
-<img width="123" height="39" src="images/Mute-logo2.png"/>
+<img width="123" height="39" src="images/Mute-logo2.png" />
 All content is copyright Mute Publishing, the authors and artists’. However, Mute encourages the use of its contents for purposes that are non-commercial, critical or disruptive of capitalist property relations. Please make sure you credit the author/artist and Mute as the original publishers.<br />
 This legend is devised in the absence of a licence which adequately represents the contributors, editors and publishers’ respective position on copyright, and to acknowledge but deny the copyrighting performed by default where copyright is waived.<br />
 Please email <script type="text/javascript">
@@ -132,20 +71,21 @@ Distribution Anagram Books <a href="http://www.anagrambooks.com/"><em>http://www
 <p class="stb">The German-language edition will be published by Textem in 2017. <a href="http://www.textem.de/index.php?id=verlag"><em>http://www.textem.de/index.php?id=verlag</em></a></p>
 </section>
 
-<nav id="toc" data-type="toc">
-	<h2>Contents</h2>
-	<ol>
-		<li><a href="#link2HCH0001">(Not) More Autonomy</a><br />Kerstin Stakemeier</li>
-		<li><a href="#link2HCH0002">PT 2</a></li>
-		<li><a href="#link2HCH0003">PT 3</a></li>
-	</ol>
+<!-- chicago manual of style: parts of a book: table of contents -->
+
+<nav id="#toc" data-type="toc">
+	<h1 class="toc" id="TableOfContents">Contents</h1>
+	<ul>
+		<li><a href="#notmoreautonomy">(Not) More Autonomy</a><br /></li>
+		<li><a href="#whatdowemeanbyautonomyandreproduction">What Do We Mean By: ‘Autonomy’ and ‘Reproduction’?</a></li>
+		<li><a href="#reproducing-autonomy">Reproducing Autonomy</a></li>
+	</ul>
 </nav>
 
-<main>
+<!-- chicago manual of style: parts of a book: text -->
 
 <section data-type="chapter">
-<h2 id="link2HCH0001">
-  <span class="chap-num">(Not) More Autonomy</span></h2>
+<h2 id="notmoreautonomy">(Not) More Autonomy</h2>
   <div class="dup">(Not) More Autonomy</div>
 <p class="author-chapter">Kerstin Stakemeier</p>
 <ol style="list-style-type: decimal">
@@ -225,8 +165,10 @@ Distribution Anagram Books <a href="http://www.anagrambooks.com/"><em>http://www
 <p>Referencing Félix Guattari, Lazzarato proposes a ‘non-discursiveness’, which in artworks like those by Monika Baer, James Richards, Amy Sillman, Susanne M. Winterling, and others, opens up affective points of concentration which do not expose a representative subjectivism. These artists do not appear as champions of the discourses into which they intervene, but as the cause of breaks within them. Crudeness, affects, desires, insecurities, and minor predicates are brought full circle instead of becoming part of a larger whole. Here, singularisations lose their developmental sense and spiral back into individuations; they do not strive for completion, but for expanding specification – autonomisations that want no functional, discursive place within contemporary catastrophic capitalism.</p>
 <p>The modern ideal of the autonomy of the arts in all of the above-mentioned artistic practices appears as a representational leftover, which practices of autonomisation constantly struggle to overcome. The modernist figure of a somewhat prior autonomy of the arts fulfils a solemnly affirmative function within catastrophic financialised capitalism. It reiterates a nostalgic figure that can linger on only at the price of its social remoteness and conservative discursive function. Artistic strategies that have attempted to materialise instances of autonomisation, which have come into being with the rise of contemporary art in the 1960s, have, conversely, built lineages that span from art across society, across social strata and identifications. It is these autonomisations from within that map out ongoing trails of differentiation from capital, and that point toward a possible life without it.</p>
 </section>
-<section>
-<h2 id="link2HCH0002">What Do We Mean By: ‘Autonomy’ and ‘Reproduction’?</h2>
+
+<section data-type="chapter">
+<h2 id="whatdowemeanbyautonomyandreproduction">What Do We Mean By: ‘Autonomy’ and ‘Reproduction’?</h2>
+<div class="dup">What Do We Mean By: ‘Autonomy’ and ‘Reproduction’?</div>
 <p class="author-chapter">Marina Vishmidt</p>
 <p>What do we mean when we speak of ‘autonomy’ and ‘reproduction’ in the field of contemporary art? What kind of objects do these terms encompass, what are their histories, and what internal logical relations can we identify between each of these concepts? And what can we say about how they operate in a philosophical discourse about art and within political theory and practice? In this text, I will analyse ‘autonomy’ and then ‘reproduction’, though in the understanding that this method of categorical isolation must be overcome if we are to reach towards the relationship of the two terms.</p>
 <h3 id="the-schema-for-art">The Schema for Art</h3>
@@ -248,8 +190,10 @@ Distribution Anagram Books <a href="http://www.anagrambooks.com/"><em>http://www
 <p>Why ‘reproductive labour’ rather than ‘productive’? Reproduction is invisible, gendered, racialised, and biopolitically managed. It appears in art as an index of liberation movements in the 1970s, especially feminism. Production is visible and political; it echoes heroic Minimalism or early Soviet artist-engineers and artist-technocrats. Not all instances of production emulated within or transplanted into the field of art are as they seem. For example, Jens Haaning’s <em>Middelburg Summer</em> (1996)<em>,</em> which was a textile factory – with mainly Turkish workers – placed in an art centre and carrying out its normal operations therein, can be taken as an instance of the politics of reproduction in art, in the sense that art centres normally displace migrant-staffed textile factories in the process of urban gentrification; and also in the sense that the city is a contested territory in reproductive struggles, which can of course <em>also</em> take the form of wage struggles. In no small part due to feminist art historical scholarship and curating, the classic example of the incursion of reproduction into the field of art is now Mierle Laderman Ukeles and her early 1970s ‘maintenance art’, which involved moving the peripheral acts of institutional upkeep (cleaning, guarding) into the foreground as artistic performances themselves. In her ‘Maintenance Art Manifesto’ (1969), she questioned why the artistic practice she pursued in her studio and the housework she did at home should be kept so inviolably separate, and consequently, she questioned what regimes of domination and exclusion were propped up by the abjection of ‘maintenance’ and the concomitant elevation of ‘art.’ Ukeles thus sullied the sovereignty of the art institution – which by that point had come to ratify many artists, usually male, who identified their practice with industrial work or bureaucracy – with the banality of ‘maintenance’. At the same time she sullied the autonomy of art with the heteronomy of domestic labour. Her gesture exemplified the political valence of revalorising reproduction as art: challenging the radicality of contemporary art by forcing it to look at its own <em>conditions</em>.</p>
 <p>Thus, it is through the lens of reproduction that feminist art and curating in the 1970s, along with currents such as the Black and Chicano art movements in the US, the Art Workers Coalition, and others, forced art to recognise its relationship to labour, and to a politics of labour. Reproduction consequently revises the situation of autonomy, politicising the once merely ‘critical’ and mimetic relation of art to its others. We can also see a complicated and equivocal development of this tendency in the current era’s interest in the educational and discursive in art, which, replaying ’60s conceptualism in the era of financialisation, once again makes the process stand in for the object – and which thus, in a dematerialising gesture, switches critical attention towards the (pre-)conditions of artistic production.</p>
 </section>
-<section>
-<h2 id="link2HCH0003">Reproducing Autonomy</h2>
+
+<section data-type="chapter">
+<h2 id="reproducing-autonomy">Reproducing Autonomy</h2>
+<div class="dup">Reproducing Autonomy</div>
 <p class="author-chapter">Kerstin Stakemeier and Marina Vishmidt</p>
 <p>In the previous section of this book, we developed a critical genealogy of the concept of ‘autonomy’ as it manifested itself in both the practical and the socio-economic conditions of art from the modern period up to the present. Central to this genealogy was an attempt to conceive of the significance of ‘autonomy’ for a materialist thinking, and in particular for recent developments in feminist theory and art writing. Now, in this closing section, we intend to undertake a shared discussion of another aspect of the materiality of ‘autonomy’, this time by beginning with a category whose origins are found, not in aesthetics, but in materialist feminism and in the critique of political economy that it draws upon: ‘reproduction’. Through a sequence of uncompleted and overlapping considerations, we propose to describe how reproduction as a historical category has changed through the development of modern capitalist social relations; to reject an affirmative and naturalising politics of the ‘autonomy’ of reproduction; and to establish the terms in which a more radical attempt to overcome the primacy of capitalist production might be conceived.</p>
 <p>We begin, in other words, with a long set of difficult questions. What <em>is</em> ‘reproduction’? How has it been conceived across the various traditions of Marxist theory and political aesthetics in the latter part of the 20th century up to the present? Is it only a form of ‘preservational’ labour, which, unlike ‘production’, is restricted to the <em>maintenance</em> of what already exists; and, if so, would it not have a <em>more</em> and not <em>less</em> distant relationship to political autonomy than the category of ‘production’? Can we continue to believe that ‘reproduction’ under capitalism is primarily a problem for feminist politics, or has the concept now acquired new dimensions? And, once again, if it’s possible to show that it <em>has</em> acquired new dimensions, what ramifications would this expansion of the domain of reproduction have for feminism itself, conceived in materialist terms as the practical rejection of the forms of gendered domination specific to contemporary capitalist societies?</p>
@@ -308,7 +252,9 @@ Already after the end of World War II, the boundaries between artistic genres an
 <p>Subjectivity is encouraged so long as it aligns with that automatism, whether or not capital has any need for a particular subject or indeed for entire populations, both of which can be jettisoned wherever this proves to be necessary for the restoration of an acceptable rate of profit. As Pierre Hadot and Christian Laval have written recently, in a reflection on the iron law of self-enterprise: ‘The novelty consists in triggering a “chain reaction” by producing “enterprising subjects” who in turn will reproduce, expand, and reinforce competitive relations between themselves. In accordance with the logic of the self-fulfilling prophecy, this requires them to adapt subjectively to ever harsher conditions which they have themselves created’.<a href="#fn74" class="footnoteRef" id="fnref74"><sup>74</sup></a> This kind of nihilistic reflexivity – a self-aware but powerless mimicry of the conditions of capital’s appreciation, treated as if they were the subject’s own, even though they lead to the subject’s disintegration and expulsion – often forms the possibility of subjectivity itself. The tendency has been discussed by Lauren Berlant as ‘cruel optimism’, and allows us to see how the promise of art as free subjectivation comes to take its place within and alongside the parameters of extraction and expulsion. We are here confronted by the fact that art can imitate with equal facility the obstinacy of reproductive work or the frictionless autonomy of capital, depending on the dominant logic of the era; and also by the fact that this is inevitable to the extent that art maintains its functional autonomy (or, rather, for so long as enough revenue can be diverted from capital valorisation elsewhere to ensure the equivocal survival of its institutions and markets).</p>
 <p>The kind of differentiation and autonomisation experienced by art since the 19th century can now go no further, since all progressive tendencies on the part of the society to which it related – as a critical or sentimental reflexivity – have hit a wall. It would seem that any other kind of autonomisation for art would only be conceivable to the degree that such a process took root in the broader society, a form of negative transfiguration whose shape is yet to become clear. Such an autonomisation, depends, as we would argue, critically on the reconstruction of autonomy from an expanded understanding of reproduction. The potential measurelessness of both art and reproduction, their capability to bring the abject character of their own social existence into play, here might guide a way. It is not by merging into what exists that art can ‘justify its existence’, but only by envisioning and materialising the radical individuation, the estrangement, and the new solidarities required for a social autonomisation powerful enough to unlock the present.</p>
 </section>
-</main>
+
+
+
 <h1 id="footnotes">Footnotes</h1>
 <ol>
 <li id="fn1"><p>I want to thank Danny Hayward. Without his anticipatory editing this text would have turned out significantly less intelligible.<a href="#fnref1">↩</a></p></li>

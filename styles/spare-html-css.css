@@ -1,0 +1,37 @@
+<!--
+<style>
+
+:root {
+  font-family: "Gentium Basic", Georgia, serif;
+  font-feature-settings: "onum", "swsh";
+}
+@page {
+  font-family: Gentium Basic, Georgia, serif;
+}
+@page :right {
+    <!-- @top-right { content: "Reproducing Autonomy"; } -->
+}
+@page :left {
+  <!-- @top-left { content: "Chapter name"; } -->
+}
+.chap-num, h1, h2 {
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+}
+header {
+  font-size: 1.3em;
+}
+h2 {
+  font-weight: normal;
+}
+.chap-num::after {
+  content: "\a";
+  white-space: pre-wrap;
+}
+.stars {
+  margin-left: 0;
+  text-align: center;
+  break-inside: avoid;
+}
+</style>
+-->

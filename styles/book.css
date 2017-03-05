@@ -1,0 +1,850 @@
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url('fonts/CooperHewitt-Book.eot');
+  src: url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
+      url('fonts/CooperHewitt-Book.woff') format('woff'),
+      url('fonts/CooperHewitt-Book.svg#svgFontName') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url('fonts/CooperHewitt-Bold.eot');
+  src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/CooperHewitt-Bold.woff') format('woff'),
+      url('fonts/CooperHewitt-Bold.svg#svgFontName') format('svg');
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url('fonts/CooperHewitt-Light.eot');
+  src: url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/CooperHewitt-Light.woff') format('woff'),
+      url('fonts/CooperHewitt-Light.svg#svgFontName') format('svg');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Cooper Hewitt';
+  src: url('fonts/CooperHewitt-Medium.eot');
+  src: url('fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/CooperHewitt-Medium.woff') format('woff'),
+      url('fonts/CooperHewitt-Medium.svg#svgFontName') format('svg');
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("fonts/Vollkorn-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("fonts/Vollkorn-Italic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("fonts/Vollkorn-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("fonts/Vollkorn-MediumItalic.otf");
+  font-weight: 500;
+  font-style: Italic;
+}
+
+
+
+
+h3.titlepageSub {
+  color: white;
+  font-size: 13pt;
+  font-weight: 200;
+}
+
+p.titlepagePar {
+  font-family: "Cooper Hewitt";
+}
+
+#TheCabbageTreeMethod {
+  font-size: 36pt !important;
+  margin-bottom: 10pt !important;
+  margin-top: 20pt;
+}
+
+.logo img {
+  width: 90%;
+}
+
+
+.logo p {
+ color: white;
+ font-family: "Cooper Hewitt";
+  font-size: 12pt;
+  font-weight: 300;
+  margin-top: 36pt;
+
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+
+@page {
+  size: 125mm 210mm;
+  margin-top: 6.2pc;
+  margin-bottom: 3.3pc;
+}
+
+html {
+  font-family: "Vollkorn";
+  font-weight: normal;
+  font-size: 9pt;
+  color: #222222;
+  hyphens: auto;
+}
+
+p {
+  font-family: "Vollkorn";
+  font-size: 9pt;
+  line-height: 12pt;
+  text-align: justify;
+  margin-bottom: 12pt;
+}
+
+p:first-of-type {
+  text-indent: 0;
+}
+
+p strong,
+p .bold,
+p .Bold,
+p b,
+li strong,
+li .bold,
+li .Bold,
+li b {
+  font-family: "Vollkorn";
+  font-weight: 500;
+}
+
+em,
+.italic {
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 400;
+}
+
+pre {
+  max-width: 80.1266666667mm;
+}
+
+a {
+  color: #435772;
+  font-family: "Vollkorn";
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA84D;
+}
+
+strong em {
+  font-weight: bold;
+  font-style: italic;
+}
+
+var {
+  font-family: "Cooper Hewitt";
+  font-weight: normal;
+}
+
+var em,
+var .Italic {
+  font-weight: normal;
+  font-style: normal;
+}
+
+sup {
+  font-size: 4.5pt;
+  font-weight: inherit;
+  position: relative;
+  top: -3px;
+  vertical-align: baseline;
+}
+
+.references p {
+  line-height: 16px;
+  font-size: 13px;
+}
+
+blockquote {
+  position: relative;
+  font-family: "Vollkorn";
+  margin-top: 9pt;
+  margin-bottom: 9pt;
+  margin-left: 2pc;
+  margin-right: 3pc;
+}
+
+blockquote:before {
+  font-family: "Vollkorn";
+  content: '“';
+  font-size: 3em;
+  top: -0.2pc;
+  left: -1.2pc;
+  position: absolute;
+  color: #7089ab;
+  opacity: 0.6;
+}
+
+blockquote:after {
+  font-family: "Vollkorn";
+  content: '”';
+  font-size: 3em;
+  bottom: -15pt;
+  right: -0.8pc;
+  position: absolute;
+  color: #7089ab;
+  opacity: 0.6;
+}
+
+blockquote p {
+  font-family: inherit;
+  text-align: left;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cooper Hewitt";
+  margin-top: 3em;
+  color: #435772;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-size: 15.3pt;
+  text-transform: none;
+  font-weight: 500;
+  margin: 0 0 2em 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11.7pt;
+  margin-top: 25.2pt;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  font-weight: 500;
+  margin-bottom: 9pt;
+}
+
+h4 {
+  font-size: 9pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-family: "Vollkorn";
+  font-size: 9pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: black;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+body {
+  counter-reset: chapter;
+}
+
+h1:before {
+  display: block;
+  text-transform: uppercase;
+  counter-increment: chapter;
+  font-size: 10pt;
+  margin-bottom: 13pt;
+  letter-spacing: 1pt;
+}
+
+.footnotes ol {
+  font-size: 8pt;
+  line-height: 13pt;
+  list-style-position: outside;
+}
+
+.footnotes ol li p {
+  text-indent: 0;
+  font-size: 8pt;
+  line-height: 13pt;
+  word-wrap: break-word;
+}
+
+.footnotes ol li p a {
+  text-wrap: word-break;
+}
+
+li[id*="fn"] {
+  color: black;
+  text-indent: 0;
+  margin-left: 2pc;
+}
+
+a.footnoteRef {
+  border-bottom: 0;
+  line-height: 0;
+  background: red;
+  display: inline;
+}
+
+figure {
+  text-indent: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 27pt;
+  margin-bottom: 27pt;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+figure figcaption {
+  font-family: "Cooper Hewitt";
+  margin-top: 0;
+  font-style: normal;
+  color: #435772;
+  text-indent: 0;
+  text-align: center;
+  font-size: 8pt;
+  font-style: italic;
+}
+
+.icon {
+  margin-right: 1em;
+  width: 20%;
+  float: left;
+}
+
+.icon img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.iconright {
+  margin-left: 1em;
+  width: 20%;
+  float: right;
+}
+
+.iconright img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+ul {
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 9pt;
+}
+
+ul li {
+  margin-left: 3pc;
+  text-indent: -1pc;
+}
+
+ul li:before {
+  content: "–";
+  color: #435772;
+  margin-left: 0;
+  margin-right: 0.1pc;
+  display: inline;
+  font-size: 12px;
+  float: left;
+}
+
+ul li p + p {
+  text-indent: 0;
+}
+
+ol {
+  counter-reset: ul;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 9pt;
+}
+
+ol li {
+  counter-increment: ul;
+  margin-left: 0.8pc;
+  text-indent: -0.8pc;
+}
+
+ol li:before {
+  content: counter(ul);
+  color: #435772;
+  margin-left: 0;
+  margin-right: 0pt;
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+}
+
+ol li h5 {
+  display: inline;
+  margin-left: 1pc;
+}
+
+ol li p + p {
+  text-indent: 0;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+table {
+  margin: 0 auto;
+  width: 85% !important;
+  font-family: "Cooper Hewitt";
+  background-size: 9pt;
+  page-break-inside: avoid;
+  margin-top: 9pt;
+  margin-bottom: 18pt;
+  border-collapse: collapse;
+  border-bottom: 1pt solid #435772;
+  border-left: 0;
+  border-right: 0;
+  text-align: left;
+  font-size: 9pt;
+}
+
+table caption {
+  border-top: 1pt solid #435772;
+  border-bottom: 1pt solid #435772;
+  padding: 1em;
+  text-align: left;
+  margin: 0 auto;
+}
+
+table caption:before {
+  counter-increment: table;
+  content: "Table " counter(table);
+  margin-right: 1em;
+  font-style: italic;
+}
+
+table td {
+  width: auto;
+  border-left: 0;
+  border-right: 0;
+  text-align: right;
+}
+
+table td:last-of-type {
+  padding-right: 1em;
+}
+
+table p,
+table ul,
+table li,
+table ol {
+  font-size: 9pt;
+  margin: 0;
+  font-family: "Cooper Hewitt";
+  text-align: left;
+  text-indent: 0;
+}
+
+table ol,
+table ul {
+  list-style-position: inside;
+}
+
+tr:first-of-type th,
+tr:first-of-type td {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+tr:last-of-type td {
+  padding-bottom: 0.6em;
+}
+
+table + p {
+  text-indent: 0;
+}
+
+th {
+  border-left: 0;
+  border-right: 0;
+  padding: 1em;
+  color: #435772;
+  background-color: #435772;
+  font-style: italic;
+  font-weight: normal;
+}
+
+tr:first-of-type {
+  border-bottom: 1pt solid #435772;
+}
+
+tr:first-of-type td {
+  font-weight: normal;
+  font-style: italic;
+}
+
+tr.head + tr td {
+  padding-top: 0.8em;
+}
+
+table + p {
+  margin: 0 auto;
+  width: 85% !important;
+  margin-top: 0;
+}
+
+table + p + p {
+  margin-top: 18pt;
+}
+
+.pagination-header:nth-of-type(odd) {
+  text-align: right;
+}
+
+.pagination-header:nth-of-type(even) {
+  text-align: left;
+}
+
+.pagination-header-chapter {
+  font-family: "Buda";
+  text-transform: lowercase;
+  letter-spacing: 1.5pt;
+}
+
+.pagination-header-chapter em,
+.pagination-header-chapter .italic,
+.pagination-header-chapter .Italic {
+  font-family: "Buda";
+}
+
+.pagination-header-section {
+  color: black;
+  font-family: "Buda";
+  font-size: 9pt;
+  text-transform: lowercase;
+  letter-spacing: 1.5pt;
+}
+
+.pagination-page {
+  font-family: "Buda";
+  font-size: 9pt;
+}
+
+.pagination-page:nth-child(even) .pagination-header {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  top: 0.7in;
+  text-align: left;
+  margin-left: 0.6in;
+}
+
+.pagination-page:nth-child(even) .pagination-pagenumber {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  text-align: left;
+  top: 0.7in;
+}
+
+.pagination-page:nth-child(odd) .pagination-header {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  top: 0.7in;
+  text-align: right;
+  margin-right: 0.6in;
+}
+
+.pagination-page:nth-child(odd) .pagination-pagenumber {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  text-align: right;
+  top: 0.7in;
+}
+
+.pagination-chapter .pagination-page:first-of-type .pagination-header {
+  display: none;
+}
+
+.pagination-chapter .pagination-page:first-of-type .pagination-pagenumber {
+  display: none;
+}
+
+.pagination-empty .pagination-header-chapter,
+.pagination-empty .pagination-header-section {
+  display: none;
+}
+
+.pagination-empty .pagination-pagenumber {
+  display: none;
+}
+
+section[data-type="toc"] h1.toc {
+  font-size: 1.4em;
+}
+
+section[data-type="toc"] h4 {
+  color: white;
+  border-bottom: 1pt solid white;
+  margin-top: 2em;
+}
+
+section[data-type="toc"] ul li {
+  margin-top: 0.5em;
+  color: white;
+  margin-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+}
+
+section[data-type="toc"] ul li p {
+  margin-left: 0;
+  text-indent: 0;
+}
+
+section[data-type="toc"] ul li:before {
+  content: "";
+}
+
+section[data-type="toc"] a {
+  color: white;
+  font-weight: 300;
+  border-bottom: 0px solid transparent;
+  background: none;
+  text-shadow: none;
+  font-family: "Cooper Hewitt";
+}
+
+section[data-type="toc"] a:after {
+  content: "123";
+  font-style: normal;
+  font-family: "Cooper Hewitt";
+  margin-left: 10em;
+  content: target-counter(attr(href, url), page);
+  display: inline-block;
+  float: right;
+}
+
+[data-name="cabbagetree"] {
+  width: 117%;
+  margin-left: -2em;
+  margin-bottom: 23pt;
+}
+
+[data-name="cyclesOfCtm"] {
+  width: 90%;
+  margin-left: 0;
+}
+
+[data-name="bookintro1"] {
+  margin-bottom: 12pt;
+}
+
+[data-name="bookintro2"] {
+  margin-bottom: 22pt;
+}
+
+[data-name="designsessions_colour_big"] {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+[data-name="1phase_colour_big"] {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+[data-name="2phase_colour_icon"] {
+  width: 110pt !important;
+  text-align: center;
+  margin: 0 !important;
+}
+
+[data-name="4phase_colour_icon"] {
+  width: 50pt !important;
+  text-align: center;
+  margin: 0;
+  margin-right: 1em;
+}
+
+[data-name="cokoflow_colour_big"] {
+  break-after: page;
+  text-align: center;
+  margin: 0;
+  transform: rotate(90deg) translateX(160pt) scale(1.7);
+}
+
+[data-name="cokoflow_colour_big"] figcaption {
+  transform: scale(0.6);
+}
+
+[data-name="cokoflow_lines_big"] {
+  break-after: page;
+  text-align: center;
+  margin: 0;
+  transform: rotate(90deg) translateX(136pt) scale(1.6);
+}
+
+[data-name="cokoflow_lines_big"] figcaption {
+  transform: scale(0.6);
+}
+
+[data-name="cabbage-tree"] {
+  width: 110pt !important;
+  text-align: center;
+  margin: 0 !important;
+  margin-right: 1em;
+}
+
+[data-name="adoption_lines_big"] {
+  width: 90% !important;
+  text-align: center;
+  margin: 0 !important;
+  margin-left: 1em;
+}
+
+[data-name="adoption_colour_big"] {
+  width: 90% !important;
+  text-align: center;
+  margin: 0 !important;
+  margin-left: 1em;
+}
+
+h2 + p {
+  margin-top: -5pt;
+}
+
+[data-name="2phase_lines_icon"] {
+  width: 80pt !important;
+  text-align: center;
+  margin: 0 !important;
+}
