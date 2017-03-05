@@ -2,26 +2,26 @@ section[data-type="chapter"], section[data-type="chaptertitle"] {
   break-before: page;
 }
 
-section[data-type="chaptertitle"] {
-  break-before: page;
+section[data-type="chapter"], {
+  break-after: page;
 }
 
 h2 {
   /* break-before: page; */
 }
 
-
 /* for the running headers style*/
 
 .dup {
   -epubx-flow-into: header;
   -epubx-flow-options: exclusive static last;
-  text-transform: uppercase;
-  font-family: "Cooper Hewitt";
-  font-weight: 300;
+  text-transform: none;
+  font-family: "Gentium Basic";
+  font-weight: normal;
+  font-style: italic;
   /* text-align: right; */
   /* text-transform: uppercase !important; */
-  font-size: 7pt;
+  font-size: 9pt;
   letter-spacing: 0.50pt;
   margin: 0;
   padding: 0;
@@ -30,14 +30,14 @@ h2 {
 .booktitle {
   -epubx-flow-into: booktitle;
   -epubx-flow-options: exclusive static last;
-  text-transform: uppercase;
-  font-family: "Cooper Hewitt";
-  font-weight: 300;
+  text-transform: none;
+  font-family: "Gentium Basic";
+  font-weight: normal;
+  font-style: italic;
   /* text-transform: uppercase !important; */
-  font-size: 7pt;
+  font-size: 9pt;
   letter-spacing: 0.50pt;
 }
-
 
 /* styling pieces */
 
@@ -47,19 +47,18 @@ h2 {
   position: absolute;
   bottom: 16pt;
   text-align: center;
-  font-family: "Cooper Hewitt";
-  font-size: 7pt;
+  font-family: "Gentium Basic";
+  font-size: 9pt;
+  font-style: italic;
 }
-
 
 /* running headers locations */
 
 .header {
   height: 13pt;
   position: absolute;
-  bottom: 16pt;
+  top: 16pt;
 }
-
 
 /* flows */
 
@@ -99,7 +98,7 @@ h2 {
 
 @-epubx-page-master first-page-cover {
   -epubx-page: 1;
-  background: url("../images/front.jpg");
+  background: url("../images/cover.jpg");
   background-size: cover;
 }
 
@@ -109,16 +108,14 @@ h2 {
   background-size: cover;
 }
 
-
-
 @-epubx-page-master titlepagepage {
   @-epubx-partition body {
     -epubx-flow-from: titlepage;
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 10mm: 10mm);
     right: -epubx-expr( page-number % 2==0 ? 10mm: 10mm);
-    top: 32pt;
-    bottom: 4.3pc;
+    top: 26mm;
+    bottom: 26mm;
   }
 
    @-epubx-partition logos {
@@ -130,14 +127,9 @@ h2 {
     bottom: 4.3pc;
   }
       background: #435772;
-
-
-
 }
 
-
 /* toc */
-
 
 @-epubx-page-master toc {
   -epubx-utilization: 0;
@@ -146,12 +138,11 @@ h2 {
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
     right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
-    top: 32pt;
-    bottom: 4.3pc;
+    top: 26mm;
+    bottom: 26mm;
   }
   background: #435772;
 }
-
 
 /* title for chapters */
 
@@ -162,12 +153,11 @@ h2 {
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
     right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
-    top: 32pt;
-    bottom: 4.3pc;
+    top: 26mm;
+    bottom: 26mm;
   }
   background: #435772;
 }
-
 
 /* colophon */
 
@@ -178,8 +168,8 @@ h2 {
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
     right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
-    top: 32pt;
-    bottom: 4.3pc;
+    top: 26mm;
+    bottom: 26mm;
   }
   background: #435772;
 }
@@ -189,50 +179,52 @@ h2 {
 @-epubx-page-master chapter {
   -epubx-utilization: 0;
 
-/*   @-epubx-partition grid {
-    position: absolute;
-    top: 30pt;
-    right: 10mm;
-    left: 10mm;
-    bottom: 10mm;
+/* guide - turn off at end */
 
-    border: 1pt solid magenta;
+  /*  @-epubx-partition grid {
+      position: absolute;
+      top: 26mm;
+      right: 20mm;
+      left: 15mm;
+      bottom: 26mm;
+      border: 1pt solid magenta;
+  }  */
 
-  } */
   @-epubx-partition body {
     -epubx-flow-from: chapter;
     -epubx-required: true;
     -epubx-snap-height: 12pt;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
-    top: 35pt;
-    bottom: 5.2pc;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 26mm;
+    bottom: 26mm;
   }
   /* page numbering left */
   @-epubx-partition class(pagenumber) {
     -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
-    left: 10mm;
+    left: 15mm;
   }
   /* page numbering right */
   @-epubx-partition class(pagenumber) {
     -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
-    right: 10mm;
+    right: 15mm;
   }
+
   /* horizontal running header */
-/*   @-epubx-partition class(header) {
+ @-epubx-partition class(header) {
     -epubx-flow-from: header;
     -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
-    left: 20mm;
-  } */
+    left: 15mm;
+  }
   /* page numbering right */
- /*  @-epubx-partition class(header) {
+ @-epubx-partition class(header) {
     -epubx-flow-from: booktitle;
     -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
-    right: 20mm;
-  } */
+    right: 15mm;
+  }
 
   /* vertical ok */
-  @-epubx-partition headervertical {
+  /*   @-epubx-partition headervertical {
     -epubx-flow-from: header;
     -epubx-enabled: -epubx-expr( page-number % 2== 1 ? 1 : 0);
     transform: rotate(90deg) translateX(25pt) translateY(-705px);
@@ -240,27 +232,23 @@ h2 {
     right: 0;
     top: 0;
     width: 200mm;
-  }
+  } */
 
-  @-epubx-partition booktitleVertical {
+    /*   @-epubx-partition booktitleVertical {
     -epubx-flow-from: booktitle;
     -epubx-enabled: -epubx-expr( page-number % 2==0 ? 1 : 0);
-    /* need to use some tranlastion to avoid white space on the page. Since there’s been a rotation, X become the vertical location of the bloc */
-    /* giving the max width to the bloc clean the issue */
     width: 200mm;
     transform: rotate(90deg) translateX(25pt) translateY(-239pt);
     transform-origin: 0 100%;
     right: 0;
     top: 0;
-    }
+    } */
+
+/* guide - turn off at end */
 
 /* baseline test */
-/*     background: linear-gradient(white 11pt , cyan 1pt);
+    background: linear-gradient(white 11pt , cyan 1pt);
     background-size: 100% 12pt;
-    background-position: 0 11pt; */
+    background-position: 0 11pt;
 
 }
-
-
-
-

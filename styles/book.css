@@ -1,98 +1,54 @@
 @font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('fonts/CooperHewitt-Book.eot');
-  src: url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
-      url('fonts/CooperHewitt-Book.woff') format('woff'),
-      url('fonts/CooperHewitt-Book.svg#svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('fonts/CooperHewitt-Bold.eot');
-  src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/CooperHewitt-Bold.woff') format('woff'),
-      url('fonts/CooperHewitt-Bold.svg#svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('fonts/CooperHewitt-Light.eot');
-  src: url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
-      url('fonts/CooperHewitt-Light.woff') format('woff'),
-      url('fonts/CooperHewitt-Light.svg#svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Cooper Hewitt';
-  src: url('fonts/CooperHewitt-Medium.eot');
-  src: url('fonts/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
-      url('fonts/CooperHewitt-Medium.woff') format('woff'),
-      url('fonts/CooperHewitt-Medium.svg#svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 500;
-}
-
-
-
-@font-face {
-  font-family: "Vollkorn";
-  src: url("fonts/Vollkorn-Regular.otf");
+  font-family: "Gentium Basic";
+  src: url("../fonts/GentiumBasic-Regular.otf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Vollkorn";
-  src: url("fonts/Vollkorn-Italic.otf");
+  font-family: "Gentium Basic";
+  src: url("../fonts/GentiumBasic-Italic.otf");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Vollkorn";
-  src: url("fonts/Vollkorn-Medium.otf");
+  font-family: "Gentium Basic";
+  src: url("../fonts/GentiumBasic-Medium.otf");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Vollkorn";
-  src: url("fonts/Vollkorn-MediumItalic.otf");
+  font-family: "Gentium Basic";
+  src: url("../fonts/GentiumBasic-MediumItalic.otf");
   font-weight: 500;
   font-style: Italic;
 }
 
-
-
-
 h3.titlepageSub {
-  color: white;
+  color: black;
   font-size: 13pt;
   font-weight: 200;
 }
 
 p.titlepagePar {
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
 }
 
-#TheCabbageTreeMethod {
+#ReproducingAutonomy {
   font-size: 36pt !important;
   margin-bottom: 10pt !important;
   margin-top: 20pt;
 }
 
 .logo img {
-  width: 90%;
+  width: 78px;
 }
 
-
 .logo p {
- color: white;
- font-family: "Cooper Hewitt";
+ color: black;
+ font-family: "Gentium Basic";
   font-size: 12pt;
   font-weight: 300;
   margin-top: 36pt;
@@ -177,24 +133,24 @@ video {
 
 
 @page {
-  size: 125mm 210mm;
-  margin-top: 6.2pc;
-  margin-bottom: 3.3pc;
+  size: 152mm 229mm;
+  margin-top: 26mm;
+  margin-bottom: 26mm;
 }
 
 html {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   font-weight: normal;
   font-size: 9pt;
-  color: #222222;
+  color: black;
   hyphens: auto;
 }
 
 p {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   font-size: 9pt;
   line-height: 12pt;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 12pt;
 }
 
@@ -210,7 +166,7 @@ li strong,
 li .bold,
 li .Bold,
 li b {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   font-weight: 500;
 }
 
@@ -227,7 +183,7 @@ pre {
 
 a {
   color: #435772;
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   font-weight: 400;
   text-decoration: none;
   font-style: italic;
@@ -244,7 +200,7 @@ strong em {
 }
 
 var {
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   font-weight: normal;
 }
 
@@ -269,7 +225,7 @@ sup {
 
 blockquote {
   position: relative;
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   margin-top: 9pt;
   margin-bottom: 9pt;
   margin-left: 2pc;
@@ -277,7 +233,7 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   content: '“';
   font-size: 3em;
   top: -0.2pc;
@@ -288,7 +244,7 @@ blockquote:before {
 }
 
 blockquote:after {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   content: '”';
   font-size: 3em;
   bottom: -15pt;
@@ -310,37 +266,43 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   margin-top: 3em;
-  color: #435772;
-  font-weight: 300;
+  color: black;
+  font-weight: normal;
 }
 
 h1 {
-  font-weight: 200;
+  font-weight: normal;
   font-size: 3em;
-  color: white;
+  color: black;
   margin-bottom: 3em;
   margin-top: 3em;
   page-break-inside: avoid;
   page-break-after: avoid;
+  text-align: center;
+  text-transform: uppercase;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
 }
 
 h2 {
-  font-size: 15.3pt;
+  font-size: 1.5em;
   text-transform: none;
-  font-weight: 500;
+  font-weight: normal;
   margin: 0 0 2em 0;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 
 h3 {
-  font-size: 11.7pt;
+  font-size: 1.2em;
   margin-top: 25.2pt;
   page-break-inside: avoid;
   page-break-after: avoid;
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 9pt;
 }
 
@@ -348,13 +310,13 @@ h4 {
   font-size: 9pt;
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: bold;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 
 h5 {
-  font-family: "Vollkorn";
+  font-family: "Gentium Basic";
   font-size: 9pt;
   margin-top: 0;
   margin-bottom: 0;
@@ -423,7 +385,7 @@ figure img {
 }
 
 figure figcaption {
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   margin-top: 0;
   font-style: normal;
   color: #435772;
@@ -520,7 +482,7 @@ a {
 table {
   margin: 0 auto;
   width: 85% !important;
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   background-size: 9pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -565,7 +527,7 @@ table li,
 table ol {
   font-size: 9pt;
   margin: 0;
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   text-align: left;
   text-indent: 0;
 }
@@ -631,7 +593,7 @@ table + p + p {
 }
 
 .pagination-header-chapter {
-  font-family: "Buda";
+  font-family: "Gentium Basic";
   text-transform: lowercase;
   letter-spacing: 1.5pt;
 }
@@ -639,19 +601,19 @@ table + p + p {
 .pagination-header-chapter em,
 .pagination-header-chapter .italic,
 .pagination-header-chapter .Italic {
-  font-family: "Buda";
+  font-family: "Gentium Basic";
 }
 
 .pagination-header-section {
   color: black;
-  font-family: "Buda";
+  font-family: "Gentium Basic";
   font-size: 9pt;
   text-transform: lowercase;
   letter-spacing: 1.5pt;
 }
 
 .pagination-page {
-  font-family: "Buda";
+  font-family: "Gentium Basic";
   font-size: 9pt;
 }
 
@@ -711,14 +673,14 @@ section[data-type="toc"] h1.toc {
 }
 
 section[data-type="toc"] h4 {
-  color: white;
-  border-bottom: 1pt solid white;
+  color: black;
+  border-bottom: 1pt solid black;
   margin-top: 2em;
 }
 
 section[data-type="toc"] ul li {
   margin-top: 0.5em;
-  color: white;
+  color: black;
   margin-left: 0;
   margin-left: 0;
   text-indent: 0;
@@ -734,18 +696,18 @@ section[data-type="toc"] ul li:before {
 }
 
 section[data-type="toc"] a {
-  color: white;
+  color: black;
   font-weight: 300;
   border-bottom: 0px solid transparent;
   background: none;
   text-shadow: none;
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
 }
 
 section[data-type="toc"] a:after {
   content: "123";
   font-style: normal;
-  font-family: "Cooper Hewitt";
+  font-family: "Gentium Basic";
   margin-left: 10em;
   content: target-counter(attr(href, url), page);
   display: inline-block;
