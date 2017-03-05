@@ -75,6 +75,61 @@ body {
 	@top-center { content: normal; }
 }
 
+/* running headers locations */
+
+.header {
+  height: 13pt;
+  position: absolute;
+  bottom: 16pt;
+}
+
+/* for the running headers style*/
+
+.dup {
+  -epubx-flow-into: header;
+  -epubx-flow-options: exclusive static last;
+  text-transform: uppercase;
+  font-family: "Gentium Basic";
+  /* text-align: right; */
+  /* text-transform: uppercase !important; */
+  font-size: 7pt;
+  letter-spacing: 0.50pt;
+  margin: 0;
+  padding: 0;
+}
+
+.booktitle {
+  -epubx-flow-into: booktitle;
+  -epubx-flow-options: exclusive static last;
+  text-transform: uppercase;
+  font-family: "Gentium Basic";
+  /* text-transform: uppercase !important; */
+  font-size: 7pt;
+  letter-spacing: 0.50pt;
+}
+
+@-epubx-partition class(header) {
+  -epubx-flow-from: header;
+  left: 10mm;  
+  right: 10mm
+  height: 13pt;
+  position: absolute;
+  top: 16pt;
+}
+
+/* titlepage */
+
+@-epubx-page-master titlepagepage {
+  @-epubx-partition body {
+    -epubx-flow-from: titlepage;
+    -epubx-required: true;
+		left: 18mm;
+	  right: 15mm;
+	  top: 25mm;
+	  bottom: 22mm;
+  }
+}
+
 /** Toc **/
 
 nav {
@@ -145,6 +200,61 @@ body > footer {
 	break-before: left;
 }
 
+/* toc */
+
+
+@-epubx-page-master toc {
+  -epubx-utilization: 0;
+  @-epubx-partition toc {
+    -epubx-flow-from: toc;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
+    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
+		content: none
+    top: 32pt;
+    bottom: 4.3pc;
+  }
+}
+
+
+/* flows */
+
+[data-type="chapter"] {
+  -epubx-flow-into: chapter;
+}
+
+[data-type="toc"] {
+  -epubx-flow-into: toc;
+}
+
+[data-type="titlepage"] {
+  -epubx-flow-into: titlepage;
+}
+
+/* create the layout of the body */
+
+@-epubx-page-master chapter {
+  -epubx-utilization: 0;
+
+/*   @-epubx-partition grid {
+    position: absolute;
+    top: 30pt;
+    right: 10mm;
+    left: 10mm;
+    bottom: 10mm;
+
+    border: 1pt solid magenta;
+
+  } */
+  @-epubx-partition body {
+    -epubx-flow-from: chapter;
+    -epubx-required: true;
+    -epubx-snap-height: 12pt;
+    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
+    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
+    top: 35pt;
+    bottom: 5.2pc;
+  }
 
 /** Titles **/
 
