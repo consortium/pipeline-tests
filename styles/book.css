@@ -28,8 +28,12 @@
 
 h3.titlepageSub {
   color: black;
-  font-size: 13pt;
-  font-weight: 200;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
 }
 
 p.titlepagePar {
@@ -39,19 +43,21 @@ p.titlepagePar {
 #ReproducingAutonomy {
   font-size: 26pt !important;
   margin-bottom: 10pt !important;
-  margin-top: 20pt;
+  margin-top: 0pt;
 }
 
 .logo img {
-  width: 78px;
+  width: 12mm;
+  align: center;
 }
 
 .logo p {
  color: black;
  font-family: "Gentium Basic";
-  font-size: 12pt;
+  font-size: 9pt;
   font-weight: 300;
   margin-top: 36pt;
+  text-align: center;
 
 }
 html,
@@ -168,6 +174,16 @@ p.stb { text-indent: 0; margin-top: 0.83em }
 p.mtb { text-indent: 0; margin-top: 2.17em }
 p.ltb { text-indent: 0; margin-top: 3.08em }
 p.divide { text-align: center; }
+p.author {
+  color: black;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
+}
+
 
 p strong,
 p .bold,
@@ -492,8 +508,8 @@ ol li p + p {
 }
 
 a {
-  color: grey;
-  text-decoration: underline;
+  color: black;
+  text-decoration: none;
 }
 
 table {
@@ -768,11 +784,12 @@ section[data-type="toc"] a:after {
   margin: 0 !important;
 }
 
-[data-name="4phase_colour_icon"] {
-  width: 50pt !important;
+[data-name="mute-logo"] {
+  width: auto;
   text-align: center;
   margin: 0;
   margin-right: 1em;
+  float: centered;
 }
 
 [data-name="cokoflow_colour_big"] {

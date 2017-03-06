@@ -92,9 +92,7 @@ h2 {
 
 /* pages layout */
 
-
 /* titlepage */
-
 
 @-epubx-page-master first-page-cover {
   -epubx-page: 1;
@@ -104,7 +102,6 @@ h2 {
 
 @-epubx-page-master second-page-backcover {
   -epubx-page: 2;
-
   background-size: cover;
 }
 
@@ -112,21 +109,19 @@ h2 {
   @-epubx-partition body {
     -epubx-flow-from: titlepage;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 10mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 10mm);
-    top: 24mm;
-    bottom: 20mm;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 26mm;
+    bottom: 24mm;
   }
-
    @-epubx-partition logos {
     -epubx-flow-from: logo;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 10mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 10mm);
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     /* height: 7em; */
-    bottom: 4.3pc;
+    bottom: 24mm;
   }
-      background: #435772;
 }
 
 /* toc */
@@ -136,12 +131,11 @@ h2 {
   @-epubx-partition toc {
     -epubx-flow-from: toc;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     top: 24mm;
     bottom: 20mm;
   }
-  background: #435772;
 }
 
 /* title for chapters */
@@ -151,12 +145,11 @@ h2 {
   @-epubx-partition chaptertitle {
     -epubx-flow-from: chaptertitle;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     top: 24mm;
     bottom: 20mm;
   }
-  background: #435772;
 }
 
 /* colophon */
@@ -166,12 +159,11 @@ h2 {
   @-epubx-partition colophon {
     -epubx-flow-from: colophon;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 10mm: 20mm);
-    right: -epubx-expr( page-number % 2==0 ? 10mm: 20mm);
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     top: 24mm;
     bottom: 20mm;
   }
-  background: #435772;
 }
 
 /* create the layout of the body */
