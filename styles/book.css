@@ -466,20 +466,20 @@ ol {
 
 ol li {
   counter-increment: ul;
-  margin-left: 0.8pc;
-  text-indent: -0.8pc;
+  margin-left: 1.6pc;
+  text-indent: -1.6pc;
 }
-
+/*
 ol li:before {
   content: counter(ul);
-  color: #435772;
+  color: magenta;
   margin-left: 0;
   margin-right: 0pt;
   display: inline-block;
   font-size: 12px;
   float: left;
 }
-
+*/
 ol li h5 {
   display: inline;
   margin-left: 1pc;
@@ -487,11 +487,13 @@ ol li h5 {
 
 ol li p + p {
   text-indent: 0;
+  text-align: right;
+  margin-bottom: 12pt;
 }
 
 a {
-  color: #222222;
-  text-decoration: none;
+  color: grey;
+  text-decoration: underline;
 }
 
 table {
