@@ -37,7 +37,7 @@ p.titlepagePar {
 }
 
 #ReproducingAutonomy {
-  font-size: 36pt !important;
+  font-size: 26pt !important;
   margin-bottom: 10pt !important;
   margin-top: 20pt;
 }
@@ -130,33 +130,43 @@ video {
   vertical-align: baseline;
 }
 
-
-
 @page {
-  size: 152mm 229mm;
-  margin-top: 26mm;
-  margin-bottom: 26mm;
+  size: 127mm 203mm;
+  margin-top: 24mm;
+  margin-bottom: 20mm;
 }
 
 html {
   font-family: "Gentium Basic";
   font-weight: normal;
-  font-size: 9pt;
+  font-size: 10.75pt;
   color: black;
   hyphens: auto;
 }
 
 p {
   font-family: "Gentium Basic";
-  font-size: 9pt;
-  line-height: 12pt;
-  text-align: left;
-  margin-bottom: 12pt;
+  font-size: 10.75pt;
+  line-height: 13.5pt;
+  text-align: justify;
+  margin-bottom: 0pt;
+  letter-spacing: 0.2pt;
+  word-spacing: 0.7pt;
+  orphans: 2;
+  widows: 2;
 }
+
+p + p {
+  text-indent: 1.5em;
+  margin-top: 0 }
 
 p:first-of-type {
   text-indent: 0;
 }
+
+p.stb { text-indent: 0; margin-top: 0.83em }
+p.mtb { text-indent: 0; margin-top: 2.17em }
+p.ltb { text-indent: 0; margin-top: 3.08em }
 
 p strong,
 p .bold,
@@ -182,16 +192,16 @@ pre {
 }
 
 a {
-  color: #435772;
+  color: black;
   font-family: "Gentium Basic";
   font-weight: 400;
   text-decoration: none;
-  font-style: italic;
+  font-style: none;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFA84D;
+  color: black;
 }
 
 strong em {
@@ -211,7 +221,7 @@ var .Italic {
 }
 
 sup {
-  font-size: 4.5pt;
+  font-size: 10.75pt;
   font-weight: inherit;
   position: relative;
   top: -3px;
@@ -219,8 +229,8 @@ sup {
 }
 
 .references p {
-  line-height: 16px;
-  font-size: 13px;
+  line-height: 10.8pt;
+  font-size: 9pt;
 }
 
 blockquote {
@@ -274,7 +284,7 @@ h6 {
 
 h1 {
   font-weight: normal;
-  font-size: 3em;
+  font-size: 26pt;
   color: black;
   margin-bottom: 3em;
   margin-top: 3em;
@@ -289,7 +299,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 14pt;
   text-transform: none;
   font-weight: normal;
   margin: 0 0 2em 0;
@@ -298,16 +308,16 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2em;
-  margin-top: 25.2pt;
+  font-size: 12pt;
+  margin-top: 25pt;
   page-break-inside: avoid;
   page-break-after: avoid;
   font-weight: bold;
-  margin-bottom: 9pt;
+  margin-bottom: 12pt;
 }
 
 h4 {
-  font-size: 9pt;
+  font-size: 10.75pt;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
@@ -340,15 +350,15 @@ h1:before {
 }
 
 .footnotes ol {
-  font-size: 8pt;
-  line-height: 13pt;
+  font-size: 9pt;
+  line-height: 10.8pt;
   list-style-position: outside;
 }
 
 .footnotes ol li p {
   text-indent: 0;
-  font-size: 8pt;
-  line-height: 13pt;
+  font-size: 9pt;
+  line-height: 10.75pt;
   word-wrap: break-word;
 }
 
@@ -669,7 +679,7 @@ table + p + p {
 }
 
 section[data-type="toc"] h1.toc {
-  font-size: 1.4em;
+  font-size: 26pt;
 }
 
 section[data-type="toc"] h4 {

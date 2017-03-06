@@ -110,7 +110,7 @@ body {
 
 @-epubx-partition class(header) {
   -epubx-flow-from: header;
-  left: 10mm;  
+  left: 10mm;
   right: 10mm
   height: 13pt;
   position: absolute;
