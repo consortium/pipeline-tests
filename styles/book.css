@@ -40,6 +40,16 @@ p.titlepagePar {
   font-family: "Gentium Basic";
 }
 
+p.titlepageSub {
+  color: black;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
+}
+
 #ReproducingAutonomy {
   font-size: 26pt !important;
   margin-bottom: 10pt !important;
@@ -49,6 +59,7 @@ p.titlepagePar {
 .logo img {
   width: 12mm;
   align: center;
+  margin-bottom: 6pt;
 }
 
 .logo p {
@@ -56,7 +67,7 @@ p.titlepagePar {
  font-family: "Gentium Basic";
   font-size: 9pt;
   font-weight: 300;
-  margin-top: 36pt;
+  margin-top: 24pt;
   text-align: center;
 
 }
