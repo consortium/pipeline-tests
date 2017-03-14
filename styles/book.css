@@ -249,7 +249,7 @@ var .Italic {
 }
 
 sup {
-  font-size: 10.75pt;
+  font-size: 9.75pt;
   font-weight: inherit;
   position: relative;
   top: -3px;
@@ -407,7 +407,7 @@ li[id*="fn"] {
 a.footnoteRef {
   border-bottom: 0;
   line-height: 0;
-  background: red;
+  background: none;
   display: inline;
 }
 
