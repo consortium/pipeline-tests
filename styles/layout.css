@@ -120,7 +120,7 @@ h2 {
 }
 
 @-epubx-page-master last {
-  -epubx-page: 111;
+  -epubx-page: 106;
   background-size: cover;
 }
 
@@ -131,7 +131,7 @@ h2 {
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
     right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
-    top: 26mm;
+    top: 18mm;
     bottom: 24mm;
   }
    @-epubx-partition logos {
@@ -151,9 +151,9 @@ h2 {
   @-epubx-partition toc {
     -epubx-flow-from: toc;
     -epubx-required: true;
-    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
-    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
-    top: 24mm;
+    left: -epubx-expr( page-number % 2==1 ? 12mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 15mm: 15mm);
+    top: 0mm;
     bottom: 20mm;
   }
 }
@@ -167,7 +167,7 @@ h2 {
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
     right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
-    top: 24mm;
+    top: 0mm;
     bottom: 20mm;
   }
 }
@@ -258,9 +258,10 @@ h2 {
 
 /* guide - turn off at end */
 
-/* baseline test */
+/* baseline test
     background: linear-gradient(white 11pt , cyan 1pt);
     background-size: 100% 13.5pt;
     background-position: 0 13.5pt;
+    */
 
 }

@@ -55,6 +55,10 @@ p.titlepageSub {
   margin-bottom: 10pt !important;
   margin-top: 0pt;
 }
+#ack {
+  margin-bottom: 10pt !important;
+  margin-top: 0pt;
+}
 
 .logo img {
   width: 12mm;
@@ -195,6 +199,10 @@ p.author {
   margin-bottom: 30pt;
 }
 
+p.copyright {
+  font-size: 9.75pt;
+  text-align: left;
+}
 
 p strong,
 p .bold,
@@ -318,8 +326,8 @@ h1 {
   font-weight: normal;
   font-size: 26pt;
   color: black;
-  margin-bottom: 3em;
-  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-top: 2em;
   page-break-inside: avoid;
   page-break-after: avoid;
   text-align: center;
@@ -727,16 +735,18 @@ table + p + p {
 
 section[data-type="toc"] h1.toc {
   font-size: 26pt;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
 section[data-type="toc"] h4 {
   color: black;
-  border-bottom: 1pt solid black;
-  margin-top: 2em;
+  margin-top: 1.2em;
+  margin-bottom: 0em;
 }
 
 section[data-type="toc"] ul li {
-  margin-top: 0.5em;
+  margin-top: 0.3em;
   color: black;
   margin-left: 0;
   margin-left: 0;
