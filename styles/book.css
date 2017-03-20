@@ -372,6 +372,11 @@ body {
   counter-reset: chapter;
 }
 
+.one ol li {
+  list-style-type: decimal;
+}
+
+
 h1:before {
   display: block;
   text-transform: uppercase;
@@ -401,7 +406,8 @@ h1:before {
 li[id*="fn"] {
   color: black;
   text-indent: 0;
-  margin-left: 2pc;
+  font-size: 9.75pt;
+  margin-left: 1.3pc;
 }
 
 a.footnoteRef {
@@ -482,6 +488,13 @@ ul li:before {
 
 ul li p + p {
   text-indent: 0;
+}
+
+#page-navigation ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: decimal;
+    float: left;
 }
 
 ol {
