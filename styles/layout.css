@@ -97,7 +97,7 @@ h2 {
 /* pages layout */
 
 /* titlepage */
-
+/* remove cover and p2
 @-epubx-page-master first-page-cover {
   -epubx-page: 1;
   background: url("../images/cover.jpg");
@@ -108,19 +108,20 @@ h2 {
   -epubx-page: 2;
   background-size: cover;
 }
+ */
 
 @-epubx-page-master pre-toc {
-  -epubx-page: 6;
+  -epubx-page: 4;
   background-size: cover;
 }
 
 @-epubx-page-master pre-chpt1 {
-  -epubx-page: 8;
+  -epubx-page: 6;
   background-size: cover;
 }
 
 @-epubx-page-master last {
-  -epubx-page: 106;
+  -epubx-page: 104;
   background-size: cover;
 }
 
