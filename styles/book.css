@@ -1,29 +1,32 @@
 @font-face {
-  font-family: "Gentium Basic";
-  src: url("../fonts/GentiumBasic-Regular.otf");
-  font-weight: 400;
-  font-style: normal;
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/GentiumBasic.otf);
 }
-
 @font-face {
-  font-family: "Gentium Basic";
-  src: url("../fonts/GentiumBasic-Italic.otf");
-  font-weight: 400;
-  font-style: italic;
+    font-family : "Gentium Basic", serif;
+    font-weight : bold;
+    font-style: normal;
+    src : url(../fonts/GentiumBasic-Bold.otf);
 }
-
 @font-face {
-  font-family: "Gentium Basic";
-  src: url("../fonts/GentiumBasic-Medium.otf");
-  font-weight: 500;
-  font-style: normal;
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: italic;
+    src : url(../fonts/GentiumBasic-Italic.otf);
 }
-
 @font-face {
-  font-family: "Gentium Basic";
-  src: url("../fonts/GentiumBasic-MediumItalic.otf");
-  font-weight: 500;
-  font-style: Italic;
+    font-family : "Gentium Basic", serif;
+    font-weight : bold;
+    font-style: italic;
+    src : url(../fonts/GentiumBasic-BoldItalic.otf);
+}
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/GentiumBookBasic.otf);
 }
 
 h3.titlepageSub {
@@ -37,7 +40,7 @@ h3.titlepageSub {
 }
 
 p.titlepagePar {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
 }
 
 p.titlepageSub {
@@ -68,7 +71,7 @@ p.titlepageSub {
 
 .logo p {
  color: black;
- font-family: "Gentium Basic";
+ font-family: "Gentium Basic", serif;
   font-size: 9pt;
   font-weight: 300;
   margin-top: 24pt;
@@ -158,7 +161,7 @@ video {
 }
 
 html {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-weight: normal;
   font-size: 10.75pt;
   color: black;
@@ -166,7 +169,7 @@ html {
 }
 
 p {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-size: 10.75pt;
   line-height: 13.5pt;
   text-align: justify;
@@ -188,7 +191,10 @@ p:first-of-type {
 p.stb { text-indent: 0; margin-top: 0.83em }
 p.mtb { text-indent: 0; margin-top: 2.17em }
 p.ltb { text-indent: 0; margin-top: 3.08em }
-p.divide { text-align: center; }
+p.ador { text-indent: 0; margin-left: 1.6pc; margin-top: 9pt }
+p.adorno { text-indent: 12px; margin-left: 1.6pc; margin-bottom: 9pt}
+p.start { text-indent: 0em; margin-top: 0em }
+p.divide { text-align: center }
 p.author {
   color: black;
   font-size: 14pt;
@@ -212,7 +218,7 @@ li strong,
 li .bold,
 li .Bold,
 li b {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-weight: 500;
 }
 
@@ -229,7 +235,7 @@ pre {
 
 a {
   color: black;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-weight: 400;
   text-decoration: none;
   font-style: none;
@@ -246,7 +252,7 @@ strong em {
 }
 
 var {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-weight: normal;
 }
 
@@ -271,7 +277,7 @@ sup {
 
 blockquote {
   position: relative;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-size: 9.75pt;
   vertical-align: baseline;
   margin-top: 9pt;
@@ -281,7 +287,7 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   content: '';
   font-size: 3em;
   top: -0.2pc;
@@ -292,7 +298,7 @@ blockquote:before {
 }
 
 blockquote:after {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   content: '';
   font-size: 3em;
   bottom: -15pt;
@@ -316,7 +322,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   margin-top: 3em;
   color: black;
   font-weight: normal;
@@ -336,6 +342,8 @@ h1 {
   -webkit-hyphens: none;
   -epub-hyphens: none;
   hyphens: none;
+  letter-spacing: 0pt;
+word-spacing: 1px;
 }
 
 h2 {
@@ -366,7 +374,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-size: 9pt;
   margin-top: 0;
   margin-bottom: 0;
@@ -441,7 +449,7 @@ figure img {
 }
 
 figure figcaption {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   margin-top: 0;
   font-style: normal;
   color: #435772;
@@ -534,9 +542,10 @@ ol li h5 {
 }
 
 ol li p + p {
-  text-indent: 0;
-  text-align: right;
-  margin-bottom: 12pt;
+  text-indent: 0pt;
+  text-align: left;
+  margin-bottom: 10pt;
+  margin-left: 12pt;
 }
 
 a {
@@ -547,7 +556,7 @@ a {
 table {
   margin: 0 auto;
   width: 85% !important;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   background-size: 9pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -592,7 +601,7 @@ table li,
 table ol {
   font-size: 9pt;
   margin: 0;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   text-align: left;
   text-indent: 0;
 }
@@ -658,7 +667,7 @@ table + p + p {
 }
 
 .pagination-header-chapter {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   text-transform: lowercase;
   letter-spacing: 1.5pt;
 }
@@ -666,19 +675,19 @@ table + p + p {
 .pagination-header-chapter em,
 .pagination-header-chapter .italic,
 .pagination-header-chapter .Italic {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
 }
 
 .pagination-header-section {
   color: black;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-size: 9pt;
   text-transform: lowercase;
   letter-spacing: 1.5pt;
 }
 
 .pagination-page {
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   font-size: 9pt;
 }
 
@@ -743,6 +752,8 @@ section[data-type="toc"] h4 {
   color: black;
   margin-top: 1.2em;
   margin-bottom: 0em;
+  letter-spacing: 0.2pt;
+word-spacing: 1px;
 }
 
 section[data-type="toc"] ul li {
@@ -751,6 +762,8 @@ section[data-type="toc"] ul li {
   margin-left: 0;
   margin-left: 0;
   text-indent: 0;
+  letter-spacing: 0.2pt;
+word-spacing: 1px;
 }
 
 section[data-type="toc"] ul li p {
@@ -768,13 +781,13 @@ section[data-type="toc"] a {
   border-bottom: 0px solid transparent;
   background: none;
   text-shadow: none;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
 }
 
 section[data-type="toc"] a:after {
   content: "123";
   font-style: normal;
-  font-family: "Gentium Basic";
+  font-family: "Gentium Basic", serif;
   margin-left: 10em;
   content: target-counter(attr(href, url), page);
   display: inline-block;
