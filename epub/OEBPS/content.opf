@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:epub="http://www.idpf.org/2007/ops"
+         xmlns:opf="http://www.idpf.org/2007/opf"
+         xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+         xmlns:cx="http://xmlcalabash.com/ns/extensions"
+         xmlns:c="http://www.w3.org/ns/xproc-step"
+         xmlns="http://www.idpf.org/2007/opf"
+         version="3.0"
+         unique-identifier="bookid"
+         prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+   <metadata>
+      <dc:title>Reproducing Autonomy: Work, Money, Crisis and Contemporary Art</dc:title>
+      <dc:creator>Kerstin Stakemeier</dc:creator>
+      <dc:creator>Marina Vishmidt</dc:creator>
+      <dc:publisher>Mute Books</dc:publisher>
+      <dc:language>eng</dc:language>
+      <dc:subject>autonomy, reproduction, art, aesthetics, feminism, theory, materialism, capitalism, labour, gender, politics, economy, political economy, conceptual art</dc:subject>
+      <dc:description.abstract>In this book, Marina Vishmidt and Kerstin Stakemeier analyse ‘autonomy’ and then ‘reproduction’, in the understanding that this method of categorical isolation must be overcome if we are to reach towards the relationship of the two terms. These three essays establish a new framework to locate notions of artistic autonomy and autonomies of art.</dc:description.abstract>
+      <dc:rights>anti-copyright</dc:rights>
+      <dc:identifier.URL>http://metamute.org/autonomy</dc:identifier.URL>
+      <meta property="dcterms:modified">2017-10-02T18:29:11Z</meta>
+      <meta property="rendition:layout">reflowable</meta>
+      <meta property="rendition:spread">auto</meta>
+      <meta property="rendition:orientation">auto</meta>
+      <meta name="cover" content="idcover_cover-ebookjpg"/>
+   </metadata>
+   <manifest>
+      <item href="images/cover-ebook.jpg"
+            media-type="image/jpeg"
+            id="idcover_cover-ebookjpg"
+            properties="cover-image"/>
+      <item href="images/M.svg" media-type="image/svg+xml" id="images__Msvg"/>
+      <item href="images/Mute-logo2.png"
+            media-type="image/png"
+            id="images__Mute-logo2png"/>
+      <item href="styles/cover.css" media-type="text/css" id="styles__covercss"/>
+      <item href="styles/reproducing-autonomy_000025.css"
+            media-type="text/css"
+            id="styles__reproducing-autonomy_000025css"/>
+      <item href="styles/ebook.css" media-type="text/css" id="styles__ebookcss"/>
+      <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+      <item href="nav.xhtml"
+            media-type="application/xhtml+xml"
+            id="navxhtml"
+            properties="nav"/>
+      <item href="text/cover.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__coverxhtml"
+            properties="svg"/>
+      <item href="text/reproducing-autonomy_000025.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_000025xhtml"/>
+      <item href="text/reproducing-autonomy_000061.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_000061xhtml"/>
+      <item href="text/reproducing-autonomy_000153.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_000153xhtml"/>
+      <item href="text/reproducing-autonomy_000194.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_000194xhtml"/>
+      <item href="text/reproducing-autonomy_000955.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_000955xhtml"/>
+      <item href="text/reproducing-autonomy_001308.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__reproducing-autonomy_001308xhtml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="text__coverxhtml"/>
+      <itemref idref="text__reproducing-autonomy_000025xhtml"/>
+      <itemref idref="text__reproducing-autonomy_000061xhtml"/>
+      <itemref idref="text__reproducing-autonomy_000153xhtml"/>
+      <itemref idref="text__reproducing-autonomy_000194xhtml"/>
+      <itemref idref="text__reproducing-autonomy_000955xhtml"/>
+      <itemref idref="text__reproducing-autonomy_001308xhtml"/>
+   </spine>
+</package>

@@ -1,0 +1,52 @@
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=2092px, height=3056px
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:291:38:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EXTRACT FILEREFS FROM HTML SOURCE FILE:
+
+file:/home/mrc/Github251016/ra/pipeline-tests/images/cover-ebook.jpg
+images/M.svg
+images/Mute-logo2.png
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 7): 1 element: div
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_000025.xhtml (2 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_000061.xhtml (3 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_000153.xhtml (4 of 7): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_000194.xhtml (5 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_000955.xhtml (6 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/reproducing-autonomy_001308.xhtml (7 of 7): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests//epub/OEBPS/styles/cover.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests//epub/OEBPS/styles/reproducing-autonomy_000025.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests//epub/OEBPS/styles/ebook.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/toc.ncx
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/nav.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/cover.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_000025.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_000061.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_000153.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_000194.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_000955.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/ra/pipeline-tests///epub/OEBPS/text/reproducing-autonomy_001308.xhtml
+WARN : err:SXXP0005:The source document is in no namespace, but the template rules all expect elements in a namespace (Use --suppressXsltNamespaceCheck:on to avoid this warning)
+INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ COLLECT FILES FOR EPUB PACKAGE:
+
+OEBPS/content.opf
+OEBPS/images/cover-ebook.jpg
+OEBPS/images/M.svg
+OEBPS/images/Mute-logo2.png
+OEBPS/styles/cover.css
+OEBPS/styles/reproducing-autonomy_000025.css
+OEBPS/styles/ebook.css
+OEBPS/toc.ncx
+OEBPS/nav.xhtml
+OEBPS/text/cover.xhtml
+OEBPS/text/reproducing-autonomy_000025.xhtml
+OEBPS/text/reproducing-autonomy_000061.xhtml
+OEBPS/text/reproducing-autonomy_000153.xhtml
+OEBPS/text/reproducing-autonomy_000194.xhtml
+OEBPS/text/reproducing-autonomy_000955.xhtml
+OEBPS/text/reproducing-autonomy_001308.xhtml
+mimetype
+META-INF/container.xml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

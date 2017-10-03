@@ -175,7 +175,7 @@ p {
   text-align: justify;
   margin-bottom: 0pt;
   letter-spacing: 0.2pt;
-  word-spacing: 0.7pt;
+  word-spacing: 0.2pt;
   orphans: 2;
   widows: 2;
 }
@@ -763,7 +763,7 @@ section[data-type="toc"] ul li {
   margin-left: 0;
   text-indent: 0;
   letter-spacing: 0.2pt;
-word-spacing: 1px;
+word-spacing: 0px;
 }
 
 section[data-type="toc"] ul li p {

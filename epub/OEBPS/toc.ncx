@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="2005-1"
+     xml:lang="en-US">
+    <head>
+      <meta name="dtb:uid" content=""/>
+    </head>
+    <docTitle>
+      <text>Reproducing Autonomy: Work, Money, Crisis and Contemporary Art</text>
+    </docTitle>
+    <navMap>
+      <navPoint id="i1" class="h1" playOrder="1">
+        <navLabel>
+            <text>Reproducing Autonomy</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_000025.xhtml#d3043e25"/>
+      </navPoint>
+      <navPoint id="i2" class="h1" playOrder="2">
+        <navLabel>
+            <text>Colophon</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_000061.xhtml#d3043e61"/>
+      </navPoint>
+      <navPoint id="i3" class="h1" playOrder="3">
+        <navLabel>
+            <text>Contents</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_000153.xhtml#d3043e153"/>
+      </navPoint>
+      <navPoint id="i4" class="h1" playOrder="4">
+        <navLabel>
+            <text>(Not) More Autonomy</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_000194.xhtml#d3043e194"/>
+      </navPoint>
+      <navPoint id="i5" class="h1" playOrder="5">
+        <navLabel>
+            <text>What Do We Mean By ‘Autonomy’ and ‘Reproduction’?</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_000955.xhtml#d3043e955"/>
+      </navPoint>
+      <navPoint id="i6" class="h1" playOrder="6">
+        <navLabel>
+            <text>Reproducing Autonomy</text>
+        </navLabel>
+        <content src="text/reproducing-autonomy_001308.xhtml#d3043e1308"/>
+      </navPoint>
+    </navMap>
+  </ncx>

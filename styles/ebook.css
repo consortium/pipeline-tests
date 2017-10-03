@@ -29,6 +29,10 @@
     src : url(../fonts/GentiumBookBasic.otf);
 }
 
+div.dup { display:none; }
+div.booktitle { display:none; }
+.mlogo { display:none; }
+
 h3.titlepageSub {
   color: black;
   font-size: 14pt;
@@ -344,6 +348,24 @@ h1 {
   hyphens: none;
   letter-spacing: 0pt;
 word-spacing: 1px;
+}
+
+h1.colophon {
+  font-size: 12pt;
+  margin-top: 25pt;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  font-weight: bold;
+  margin-bottom: 12pt;
+  color: black;
+  margin-bottom: 2em;
+  text-align: left;
+  text-transform: none;;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+  letter-spacing: 0pt;
 }
 
 h2 {
@@ -785,7 +807,6 @@ section[data-type="toc"] a {
 }
 
 section[data-type="toc"] a:after {
-  content: "123";
   font-style: normal;
   font-family: "Gentium Basic", serif;
   margin-left: 10em;
